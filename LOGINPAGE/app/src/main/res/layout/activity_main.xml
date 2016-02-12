@@ -1,0 +1,123 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/a2"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp"
+    tools:context=".MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:background="#6aff8390"
+        android:weightSum="1"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:src="@drawable/ic_launcher"
+            android:baselineAlignBottom="false" />
+
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="52dp">
+        <EditText android:id="@+id/email"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="email id"
+            android:inputType="textEmailAddress"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <EditText android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:hint="@string/password"
+            android:inputType="textPassword"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+
+        android:weightSum="1"
+       >
+
+        <CheckedTextView
+            android:id="@+id/checkedTextView1"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:checkMark="?android:attr/listChoiceIndicatorMultiple"
+            android:checked="true"
+            android:text="remember me ?" />
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+               <Button
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:id="@+id/signin"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="sign in"
+            android:layout_toLeftOf="@id/checkedTextView1"
+            android:singleLine="true" />
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:minWidth="25px"
+            android:minHeight="25px">
+
+            <Button
+                android:gravity="center"
+                android:layout_gravity="right"
+                android:id="@+id/reg"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="no membership"
+                android:singleLine="true" />
+        </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

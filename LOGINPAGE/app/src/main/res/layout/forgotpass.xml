@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a2">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText android:id="@+id/enterid"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:hint="enter email"
+            android:inputType="textEmailAddress"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp">
+
+
+        <Button
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:id="@+id/sendmail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="send mail"
+            android:singleLine="true"
+            android:focusableInTouchMode="true"
+            android:focusable="false" />
+    </LinearLayout>
+
+</LinearLayout>

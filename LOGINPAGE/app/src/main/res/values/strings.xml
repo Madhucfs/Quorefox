@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">login</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login">email id</string>
+    <string name="password">password</string>
+    <string name="action_settings">Settings</string>
+    <string name="my_link"><a href="http://careerforce.qorefox.com/">I don\'t have a membership </a></string>
+
+</resources>

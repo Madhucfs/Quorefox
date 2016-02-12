@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">quorefox</string>
+    <string name="action_settings">Settings</string>
+    <string name="resume">&#xf044;</string>
+    <string name="Protograph">&#xf03e;</string>
+    <string name="addressproof">&#xf0f4;</string>
+    <string name="resumee">&#xf185;</string>
+    <string name="id">&#xf0c4;</string>
+    <string name="address">&#xf0f2;</string>
+    <string name="tutorials">&#xf040;</string>
+    <string name="newjobs">&#xf0f2;</string>
+    <string name="upload">&#xf093;</string>
+    <string name="download">&#xf019;</string>
+    <string name="read">&#xf06e;</string>
+</resources>
